@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
+import deploywiseimg from './images/deploywiseimg.gif'
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
             </p>
 
             <h1 class="cover-heading">Demo of Software</h1>
-            <img src='/' alt='demo' />
+            <img src={deploywiseimg} alt='demo' className="landing-page-img" />
             <p class="lead"></p>
 
           </main>
